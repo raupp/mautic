@@ -30,3 +30,11 @@ services:
       - mauticnet
     ports:
       - "8880:80"
+
+volumes:
+  database:
+  mautic_data:
+
+networks:
+  mauticnet:
+ 
